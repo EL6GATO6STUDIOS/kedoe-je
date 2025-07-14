@@ -1,5 +1,1 @@
-
 streamlit
-wikipedia
-PyPDF2
-Pillow
