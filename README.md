@@ -1,15 +1,14 @@
 # CatNet Simple Browser
 
-Streamlit ile yapılmış basit bir tarayıcı/arama arayüzü.
+Streamlit ile yapılmış basit bir tarayıcı ve arama arayüzü.
 
 ## Özellikler
-- URL veya arama terimi girişi
-- Girilen URL iframe içinde açılır
-- Arama terimi girilirse Google arama sayfası açılır
+- Google’a benzer sade arayüz
+- Arama çubuğu
+- Arama sonrası en üstte “asıl cevap” gösterimi
+- Altında 10 tane örnek site sonucu listesi
 - Cat CPT AI'ye git butonu
 
 ## Kullanım
-1. Gerekli paketleri yükle:  
-   `pip install -r requirements.txt`
-2. Uygulamayı çalıştır:  
-   `streamlit run catnet_app.py`
+
+1. Gerekli kütüphaneleri yükleyin:
