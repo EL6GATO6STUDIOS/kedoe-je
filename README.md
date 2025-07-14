@@ -1,19 +1,15 @@
+# CatNet Simple Browser
 
-# Cat CPT
-
-Cat CPT, Türkçe çalışan, sohbet tabanlı yapay zeka asistanıdır.
+Streamlit ile yapılmış basit bir tarayıcı/arama arayüzü.
 
 ## Özellikler
+- URL veya arama terimi girişi
+- Girilen URL iframe içinde açılır
+- Arama terimi girilirse Google arama sayfası açılır
+- Cat CPT AI'ye git butonu
 
-- ChatGPT benzeri arayüz
-- Wikipedia'dan otomatik bilgi çekme
-- Gündelik konuşmalara cevap verebilme
-- Soru analiz edebilme (yorum/sorgulama ayrımı)
-- Görsel (.jpg, .png) ve belge (.pdf, .txt) analiz desteği
-
-## Kurulum
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+## Kullanım
+1. Gerekli paketleri yükle:  
+   `pip install -r requirements.txt`
+2. Uygulamayı çalıştır:  
+   `streamlit run catnet_app.py`
